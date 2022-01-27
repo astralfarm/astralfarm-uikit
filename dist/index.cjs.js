@@ -2407,6 +2407,8 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
+        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/astral-farm/" },
+            React__default['default'].createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugdocReview" })),
         React__default['default'].createElement("a", { href: "https://www.assuredefi.io/projects/astral-farm/" },
             React__default['default'].createElement(Image, { src: "/images/assure/assure.png", width: 370, height: 121, responsive: true, alt: "AssureKYC" })),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
