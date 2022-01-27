@@ -2408,7 +2408,7 @@ var Panel = function (props) {
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
         React__default['default'].createElement("a", { href: "https://www.assuredefi.io/projects/astral-farm/" },
-            React__default['default'].createElement(Image, { src: "/images/assure/Assure_TransBG_Gold.png", width: 370, height: 121, responsive: true, alt: "AssureKYC" })),
+            React__default['default'].createElement(Image, { src: "/images/assure/assure.png", width: 370, height: 121, responsive: true, alt: "AssureKYC" })),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$E;

@@ -41,7 +41,7 @@ const Panel: React.FC<Props> = (props) => {
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
       <a href="https://www.assuredefi.io/projects/astral-farm/">
-        <Image src="/images/assure/Assure_TransBG_Gold.png" width={370} height={121} responsive alt="AssureKYC" />
+        <Image src="/images/assure/assure.png" width={370} height={121} responsive alt="AssureKYC" />
       </a>
       <PanelFooter {...props} />
     </StyledPanel>

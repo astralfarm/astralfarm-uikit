@@ -2395,7 +2395,7 @@ var Panel = function (props) {
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
         React.createElement("a", { href: "https://www.assuredefi.io/projects/astral-farm/" },
-            React.createElement(Image, { src: "/images/assure/Assure_TransBG_Gold.png", width: 370, height: 121, responsive: true, alt: "AssureKYC" })),
+            React.createElement(Image, { src: "/images/assure/assure.png", width: 370, height: 121, responsive: true, alt: "AssureKYC" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$E;
