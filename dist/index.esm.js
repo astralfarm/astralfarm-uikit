@@ -2394,6 +2394,8 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
+        React.createElement("a", { href: "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38866644768768473940932911596864784329968136570494593720793432297324098355201" },
+            React.createElement(Image, { src: "/assure/Assure_TransBG_Gold.png", width: 370, height: 121, responsive: true, alt: "AssureKYC" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$E;

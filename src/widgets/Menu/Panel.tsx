@@ -40,9 +40,9 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      {/* <a href="https://rugdoc.io/project/astralfarm/">
-        <Image src="/images/RugDoc.png" width={370} height={121} responsive alt="RugDocReview" />
-      </a> */}
+      <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/38866644768768473940932911596864784329968136570494593720793432297324098355201">
+        <Image src="/assure/Assure_TransBG_Gold.png" width={370} height={121} responsive alt="AssureKYC" />
+      </a>
       <PanelFooter {...props} />
     </StyledPanel>
   );
